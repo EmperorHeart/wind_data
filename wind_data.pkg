@@ -1,4 +1,4 @@
 v 1.0
-d 一键将直接从Wind数据库或金融Choice数据库下载的财务数据类直接转化为面板数据
+d quickly！transform data from Wind or Choice database to Panel data
 f wind_data.ado
 f wind_data.sthlp
