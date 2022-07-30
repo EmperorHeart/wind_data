@@ -2,3 +2,5 @@ v 1.0
 d quickly！transform data from Wind or Choice database to Panel data
 f wind_data.ado
 f wind_data.sthlp
+f renvarlab.ado
+f renvarlab.hlp
