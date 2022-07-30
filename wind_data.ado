@@ -5,8 +5,8 @@ version 15.0
 cap drop if 证券简称==""
 cap drop if 证券名称==""
 di _skip(45) "欢迎使用一键转化Wind或Choice面板数据命令"
-di _newline as error "注意：同一变量内所有时间的数据格式需要一致。需要安装renvarlab命令！"
-di _skip(4) _newline as error "只需输入一个数据频率参数，年度用year或y,季度用quarter或q，默认不写为年度"
+di _newline as error "注意：同一变量内所有时间的数据格式需要一致！！！"
+*di _skip(4) _newline as error "只需输入一个数据频率参数，年度用year或y,季度用quarter或q，默认不写为年度"
 
 *简化名字*
 if "`1'"=="year" | "`1'"=="y" | "`1'"==""{
